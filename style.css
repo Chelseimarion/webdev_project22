@@ -42,7 +42,7 @@ nav a {
     background-color: #ffe4ec;
     padding: 8px 16px;
     border-radius: 30px;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
