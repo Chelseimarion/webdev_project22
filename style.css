@@ -104,3 +104,48 @@ img {
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+@media (min-width: 600px) {
+    body { 
+        background-color: #fff8fq;
+    }
+
+    nav ul {
+        justify-content: space-around;
+    }
+
+    h1 {
+        font-size: 3.5em;
+        color: #b03e66
+    }
+
+    img { 
+        width: 200px;
+        height: auto;
+        border: 3px solid #ffcce0;
+    }
+
+    section {
+        margin: 0 auto;
+        max-width: 90%;
+        padding: 1.5em;
+        background-color: #fff0f5;
+        box-shadow: 0 4px 12px rgba(0,0,0,0,0.08)
+
+@media (min-width: 900px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+    }
+    section {
+        border: 1px solid #ccc;
+        padding: 1em;
+        border-radius: 10px;
+    }
+    nav ul {
+        gap: 2em;
+    }
+    footer {
+        text-align: center;
+    }
+  }
